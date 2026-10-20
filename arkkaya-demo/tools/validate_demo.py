@@ -24,7 +24,7 @@ with sync_playwright() as p:
     errors=[]
     external=[]
     page.on('pageerror', lambda error:errors.append(str(error)))
-    page.on('request', lambda request:external.append(request.url) if not request.url.startswith(('http://127.0.0.1:3000/','data:','file:')) else None)
+    page.on('request', lambda request:external.append(request.url) if not request.url.startswith((BASE,'data:','file:')) else None)
     page.goto(BASE,wait_until='networkidle')
     ready(page)
     expect(page.locator('h1')).to_have_text('Spaces for the wayyou live.')
@@ -115,6 +115,17 @@ with sync_playwright() as p:
     expect(page.locator('h1')).to_have_text('Privacy, made clear.')
     expect(page.locator('main')).to_contain_text('does not submit it to Arkkaya')
     passed('Privacy link opens the applicable demo privacy page')
+
+    page.goto(BASE+'#/about')
+    ready(page)
+    expect(page.locator('.studio-banner h1')).to_have_text('Spaces shapedaround people.')
+    expect(page.locator('.studio-vision h2')).to_have_text('Our vision')
+    expect(page.locator('.founders-detail h2')).to_have_text('Founders')
+    expect(page.locator('.material-grid img')).to_have_count(5)
+    tiles=[tile.bounding_box() for tile in page.locator('.material-grid img').all()]
+    assert all(80<tile['height']<260 for tile in tiles),tiles
+    assert max(tile['y'] for tile in tiles)-min(tile['y'] for tile in tiles)<2,tiles
+    passed('Reference-led Studio: founders banner, centred vision, five correctly sized material tiles and founder details')
 
     for width in [1440,390,320,768]:
         page.set_viewport_size({'width':width,'height':1000 if width>700 else 844})

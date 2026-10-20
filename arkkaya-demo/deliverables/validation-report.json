@@ -1,6 +1,6 @@
 {
   "browser": "Chromium",
-  "base": "http://127.0.0.1:3000/",
+  "base": "http://127.0.0.1:3002/",
   "checks": [
     {
       "check": "Homepage follows the brief\u2019s section order",
@@ -32,6 +32,10 @@
     },
     {
       "check": "Privacy link opens the applicable demo privacy page",
+      "outcome": "passed"
+    },
+    {
+      "check": "Reference-led Studio: founders banner, centred vision, five correctly sized material tiles and founder details",
       "outcome": "passed"
     },
     {
@@ -72,7 +76,7 @@
     }
   ],
   "summary": {
-    "passed": 17,
+    "passed": 18,
     "failed": 0
   }
 }

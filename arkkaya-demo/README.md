@@ -1,6 +1,6 @@
-# Arkkaya — separate client-review demo
+# Arkkaya — B.Form reference-led revision
 
-A static, responsive redesign of the supplied Arkkaya website using its original logo, founder portrait, three project names and project images. The original live website is untouched. Forms and Reel playback are simulated for review.
+A static, responsive redesign guided by the client’s B.Form About-page reference (https://bform.studio/pages/about-us). This revision uses full-width imagery, centred copy, a material-study strip, a simple dot-line process, Montserrat body type and a distinct warmer walnut/oat/clay palette. It retains Arkkaya’s original logo, founder portrait, three project names and project images. The original live website is untouched. Forms and Reel playback are simulated for review.
 
 ## Open and review
 
@@ -38,4 +38,4 @@ Hash routes need no server rewrites. The single-file HTML has been tested with n
 
 Publish only to a new demo location. Do not deploy over `https://property-website-theta-ten.vercel.app/`. The source is suitable for static hosting without a build command. Public repository mirrors/CDNs can serve the demo independently of the original Vercel deployment. Vercel deployment is optional and requires its own token; no Vercel token has been supplied.
 
-The JPEGs are actual screenshots, not image-generated mockups. Original images are copied without pixel editing. DM Sans is bundled under SIL OFL; see `assets/FONT-LICENSE.txt`. See `REVIEW-NOTES.md` for the implementation status and remaining production requirements.
+The JPEGs are actual screenshots, not image-generated mockups. Original images are copied without pixel editing. Montserrat, Cormorant Garamond and the retained DM Sans files are bundled under their SIL OFL licences in assets/. See `REVIEW-NOTES.md` for the implementation status and remaining production requirements.

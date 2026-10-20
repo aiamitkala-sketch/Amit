@@ -1,4 +1,4 @@
-# Review notes — separate Arkkaya demo
+# Review notes — B.Form reference-led Arkkaya revision
 
 The layout follows the supplied revised 17 October 2026 brief: warm white/brown, concise text, large project imagery, founders near the top, equal Architecture/Interior Design emphasis, project arrows and filters, grouped project galleries, a three-step process, contact invitation and consistent mobile layouts.
 
@@ -23,3 +23,19 @@ Contact and Careers forms validate fields and show demo confirmations. The resum
 Real enquiry delivery and confirmation of receipt, secure resume upload/storage if Careers is retained, final service scope approval, authentic Reels, a genuine review if desired, verified business/contact information and an approved legal privacy notice remain production requirements. They are not presented as completed capabilities of this review demo.
 
 The original live website has only been read to obtain its public assets. It has not been edited or redeployed. All source changes and any publication are confined to the separate demo location.
+
+## This reference-led revision
+
+The actual supplied B.Form About page was inspected, including its public page structure, CSS/font settings, photography presentation and process graphic. Its defining references are a broad photographic opener, restrained navigation, a centred vision statement, five material tiles, a simple process timeline and cream/brown surfaces. Arkkaya adapts those ideas with its own text, project photographs and founder information. No B.Form imagery, people, logo, commercial content or theme code is shipped in this demo.
+
+| Element | Arkkaya adaptation |
+| --- | --- |
+| Full-width founder-led About opener | Original Arkkaya founder portrait paired with short studio copy |
+| Centred vision section | Concise, original studio vision and a single supporting line |
+| Material image tiles | Five crops of original Arkkaya project images, rendered through CSS |
+| Process graphic | Accessible HTML/CSS dots and connecting line; exactly the brief’s three steps |
+| Typography | Montserrat body text, with original Cormorant Garamond display typography inspired by the reference’s process title |
+| Palette | Oat `#f5f1e9`, walnut `#654b3c`, sand `#eae1d4`, muted clay `#a97b61`; original logo colours retained |
+| Homepage order | Opening, Founders, Selected projects, Services, Process, Reel previews, Contact |
+
+All ten routes share the new design treatment. The old public revision remains available at its immutable Git commit URL. This revision is published separately on the same demo branch and never deploys over the original live Vercel website.
