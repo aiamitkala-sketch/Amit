@@ -1,0 +1,78 @@
+{
+  "browser": "Chromium",
+  "base": "http://127.0.0.1:3000/",
+  "checks": [
+    {
+      "check": "Homepage follows the brief\u2019s section order",
+      "outcome": "passed"
+    },
+    {
+      "check": "Selected-project arrows browse and return",
+      "outcome": "passed"
+    },
+    {
+      "check": "Architecture / Interiors / All project filters show the correct projects",
+      "outcome": "passed"
+    },
+    {
+      "check": "Project galleries, keyboard navigation, closing, and next-project link",
+      "outcome": "passed"
+    },
+    {
+      "check": "Reel cards use 9:16, open, pause, advance, and close",
+      "outcome": "passed"
+    },
+    {
+      "check": "Required enquiry fields, local-only confirmation, no browser storage, and service preselection",
+      "outcome": "passed"
+    },
+    {
+      "check": "Careers rejects wrong type and files over 5 MB; valid PDF selection receives demo confirmation",
+      "outcome": "passed"
+    },
+    {
+      "check": "Privacy link opens the applicable demo privacy page",
+      "outcome": "passed"
+    },
+    {
+      "check": "All 10 routes load with images and no horizontal overflow at 1440px",
+      "outcome": "passed"
+    },
+    {
+      "check": "All 10 routes load with images and no horizontal overflow at 390px",
+      "outcome": "passed"
+    },
+    {
+      "check": "All 10 routes load with images and no horizontal overflow at 320px",
+      "outcome": "passed"
+    },
+    {
+      "check": "All 10 routes load with images and no horizontal overflow at 768px",
+      "outcome": "passed"
+    },
+    {
+      "check": "Mobile menu opens, navigates and closes",
+      "outcome": "passed"
+    },
+    {
+      "check": "Preview notes describe original asset reuse and demo-only forms",
+      "outcome": "passed"
+    },
+    {
+      "check": "Four full-page JPEGs exported: homepage and project, desktop and mobile",
+      "outcome": "passed"
+    },
+    {
+      "check": "Single-file HTML: images, routing, filters and gallery work with network disabled after initial document load",
+      "outcome": "passed"
+    },
+    {
+      "check": "No JavaScript exceptions or third-party requests during validation",
+      "outcome": "passed"
+    }
+  ],
+  "summary": {
+    "passed": 17,
+    "failed": 0
+  }
+}

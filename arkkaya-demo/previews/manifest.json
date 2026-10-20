@@ -1,0 +1,230 @@
+[
+  {
+    "kind": "page",
+    "title": "Homepage",
+    "view": "desktop",
+    "file": "page-01-homepage-desktop.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "Projects listing",
+    "view": "desktop",
+    "file": "page-02-projects-desktop.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "The Neoclassical Villa",
+    "view": "desktop",
+    "file": "page-03-villa-project-desktop.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "Modern Luxe Residence",
+    "view": "desktop",
+    "file": "page-04-residence-project-desktop.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "Blue Reverie Lounge",
+    "view": "desktop",
+    "file": "page-05-lounge-project-desktop.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "Services",
+    "view": "desktop",
+    "file": "page-06-services-desktop.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "Studio & Founders",
+    "view": "desktop",
+    "file": "page-07-studio-desktop.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "Contact",
+    "view": "desktop",
+    "file": "page-08-contact-desktop.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "Careers",
+    "view": "desktop",
+    "file": "page-09-careers-desktop.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "Demo privacy",
+    "view": "desktop",
+    "file": "page-10-privacy-desktop.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "Navigation",
+    "view": "desktop",
+    "file": "section-01-navigation-desktop.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "Opening image & introduction",
+    "view": "desktop",
+    "file": "section-02-opening-desktop.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "Meet the founders",
+    "view": "desktop",
+    "file": "section-03-founders-desktop.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "Selected projects",
+    "view": "desktop",
+    "file": "section-04-selected-projects-desktop.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "Architecture & Interior Design",
+    "view": "desktop",
+    "file": "section-05-services-desktop.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "Our process",
+    "view": "desktop",
+    "file": "section-06-process-desktop.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "9:16 Reel previews",
+    "view": "desktop",
+    "file": "section-07-reels-desktop.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "Contact invitation",
+    "view": "desktop",
+    "file": "section-08-contact-desktop.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "Footer & privacy",
+    "view": "desktop",
+    "file": "section-09-footer-desktop.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "Homepage",
+    "view": "mobile",
+    "file": "page-01-homepage-mobile.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "Projects listing",
+    "view": "mobile",
+    "file": "page-02-projects-mobile.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "The Neoclassical Villa",
+    "view": "mobile",
+    "file": "page-03-villa-project-mobile.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "Modern Luxe Residence",
+    "view": "mobile",
+    "file": "page-04-residence-project-mobile.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "Blue Reverie Lounge",
+    "view": "mobile",
+    "file": "page-05-lounge-project-mobile.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "Services",
+    "view": "mobile",
+    "file": "page-06-services-mobile.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "Studio & Founders",
+    "view": "mobile",
+    "file": "page-07-studio-mobile.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "Contact",
+    "view": "mobile",
+    "file": "page-08-contact-mobile.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "Careers",
+    "view": "mobile",
+    "file": "page-09-careers-mobile.jpg"
+  },
+  {
+    "kind": "page",
+    "title": "Demo privacy",
+    "view": "mobile",
+    "file": "page-10-privacy-mobile.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "Navigation",
+    "view": "mobile",
+    "file": "section-01-navigation-mobile.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "Opening image & introduction",
+    "view": "mobile",
+    "file": "section-02-opening-mobile.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "Meet the founders",
+    "view": "mobile",
+    "file": "section-03-founders-mobile.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "Selected projects",
+    "view": "mobile",
+    "file": "section-04-selected-projects-mobile.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "Architecture & Interior Design",
+    "view": "mobile",
+    "file": "section-05-services-mobile.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "Our process",
+    "view": "mobile",
+    "file": "section-06-process-mobile.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "9:16 Reel previews",
+    "view": "mobile",
+    "file": "section-07-reels-mobile.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "Contact invitation",
+    "view": "mobile",
+    "file": "section-08-contact-mobile.jpg"
+  },
+  {
+    "kind": "section",
+    "title": "Footer & privacy",
+    "view": "mobile",
+    "file": "section-09-footer-mobile.jpg"
+  }
+]
